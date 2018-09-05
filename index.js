@@ -6,7 +6,7 @@ function ticTacToe(){
         let penampung = xo[i];
         xo[i] = xo[acak];
         xo[acak] = penampung;
-        console.log(i,'=m=',acak)
+        //console.log(i,'=m=',acak)
     }
     let idx = xo.length-1
     for(let i = 0;i < 3;i++){
